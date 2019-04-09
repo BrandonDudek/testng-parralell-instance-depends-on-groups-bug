@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sample Test Suite" verbose="1" parallel="instances" thread-count="10000" data-provider-thread-count="10000">
+    <!-- ~18min -->
+    <test name="Sample Regression Test">
+        <classes>
+            <class name="xyz.swatt.sample.testng.bug.DependsOnGroupsSample"/>
+        </classes>
+    </test>
+</suite>
